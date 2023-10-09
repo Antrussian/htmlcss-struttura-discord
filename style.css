@@ -20,6 +20,32 @@
    
 }
 
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    align-items: flex-end;
+    border-top: 1px solid white;
+   
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    width: 65%;
+    background-color: aqua;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
 .container1{
     display: flex;
    background-color: rgb(251, 181, 51);
@@ -34,7 +60,7 @@
    background-color: rgb(251, 181, 51);
    border: 2px Dashed rgba(65, 65, 65, 0.546); 
    height: 50px;
-   width: 40%;
+   width: 35%;
    align-items: center;
    justify-content: center;
   
@@ -47,7 +73,15 @@
    height: 50px;
    width: 15%;
    align-items: center;
+}
 
+.container-items {
+    display: flex;
+    background-color: rgb(253, 170, 251);
+    border: 2px Dashed rgba(65, 65, 65, 0.546); 
+    height: 30px;
+    
+    align-items: center;
 }
 
 li {
@@ -110,10 +144,12 @@ align-items: center;
     background-color: lightgrey;
 }
 
+.background-darkgrey {
+    background-color: rgb(40, 40, 40);
+}
 
 .box-flex {
     display: flex;
-    margin: auto;
     height: 300px;
     border: 2px dashed;
 }
@@ -121,12 +157,28 @@ align-items: center;
 .box-magenta {
     background-color: magenta;
     width: 55%;
+    margin: auto;
 }
 
 .box-green {
     background-color: green;
-    width: 70%;
+    width: 65%;
     height: 90%;
+    margin: auto;
+}
+
+.box-red {
+    background-color: rgb(248, 121, 121);
+    width: 25%;
+   height: 95%;
+}
+
+.box-green-secondary {
+    background-color: rgb(72, 253, 211);
+    width: 10%;
+    height: 95%;
+    border-color: white;
+   
 }
 
 .section-flex-2 {
@@ -138,7 +190,7 @@ align-items: center;
     align-items: center;
     }
     
-    .box-flex-2 {
+ .box-flex-2 {
         display: flex;
         background-color: rgb(23, 82, 243);
         width: 40%;
@@ -146,12 +198,13 @@ align-items: center;
         border: 2px dashed;
     }
 
-    .box-flex-3 {
+.box-flex-3 {
         display: flex;
         background-color: rgb(236, 171, 246);
         width: 25%;
         height: 300px;
         border: 2px dashed;
+        
     }
 
 
