@@ -55,8 +55,6 @@ ul {
     width: 500px;
     justify-content: center;
     
-
-    
 }
 
 
@@ -69,3 +67,19 @@ ul {
 
 
 
+.section-flex {
+display: flex;
+flex-direction: row;
+background-color: blue;
+justify-content: center;
+height: 400px;
+}
+
+.box-flex {
+    display: flex;
+    background-color: magenta;
+    margin: auto;
+    width: 60%;
+    height: 300px;
+    border: 2px dashed;
+}
