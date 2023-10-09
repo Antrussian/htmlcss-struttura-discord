@@ -89,20 +89,45 @@ ul {
 .section-flex {
 display: flex;
 flex-direction: row;
-background-color: blue;
 justify-content: center;
-height: 400px;
+align-items: center;
 }
+
+.section-middle {
+    height: 400px;
+}
+
+.section-big {
+    height: 600px;
+}
+
+
+.background-blue {
+    background-color: blue;
+}
+
+.background-grey {
+    background-color: lightgrey;
+}
+
 
 .box-flex {
     display: flex;
-    background-color: magenta;
     margin: auto;
-    width: 55%;
     height: 300px;
     border: 2px dashed;
 }
 
+.box-magenta {
+    background-color: magenta;
+    width: 55%;
+}
+
+.box-green {
+    background-color: green;
+    width: 70%;
+    height: 90%;
+}
 
 .section-flex-2 {
     display: flex;
@@ -128,6 +153,7 @@ height: 400px;
         height: 300px;
         border: 2px dashed;
     }
+
 
 
     
